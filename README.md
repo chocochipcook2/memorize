@@ -1,0 +1,2 @@
+# memorize
+for study
