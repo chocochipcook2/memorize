@@ -26,4 +26,15 @@ curl -fsSL https://get.docker.com/ | sudo sh
  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
-> > check if 4.
+> > check if docker is installed well
+
+```
+docker version
+docker-compose version
+```
+
+> 4. pull postgresql docker image
+
+```
+
+```
