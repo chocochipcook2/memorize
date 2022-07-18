@@ -10,7 +10,10 @@ for study
 
 > 2. install docker
 >    > - https://tech.ktcloud.com/84
->    > - curl -fsSL https://get.docker.com/ | sudo sh
+
+```
+curl -fsSL https://get.docker.com/ | sudo sh
+```
 
 > 3. install docker-compose
 >    >
