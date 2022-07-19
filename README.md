@@ -4,7 +4,7 @@ for study
 
 ---
 
-### TODO :
+### Done :
 
 > 1. set aws EC2 instance
 
@@ -33,8 +33,48 @@ docker version
 docker-compose version
 ```
 
-> 4. pull postgresql docker image
+> 4. install postgresql
+>    > - pull postgresql docker image
 
 ```
+docker pull postgres
+
+(check)
+docker image ls
+```
+
+> > - edit file docker-compose.yml
+
+```yaml
+version: '3'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: '[username]'
+      POSTGRES_PASSWORD: '[password]'
+    volumes:
+      - /[current location ex) pwd]/data:/var/lib/postgresql/data
+```
+
+> 5.  run DB
+>     >
 
 ```
+docker-compose up -d db
+
+(if you wanna check db in terminal)
+docker exec -it postgres /bin/bash
+```
+
+### TODO :
+
+> 6. parse pdf data into formatted .txt file
+
+> 7. add data into db (build DB structure)
+
+> 8.
