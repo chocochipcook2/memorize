@@ -74,7 +74,8 @@ docker exec -it postgres /bin/bash
 
 ### TODO :
 
-> 6. parse pdf data into formatted .txt file</br>
+> 6. parse pdf data into formatted .txt file
+
 >    quit
 >    :fire:
 
