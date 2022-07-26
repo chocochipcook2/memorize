@@ -74,6 +74,8 @@ docker exec -it postgres /bin/bash
 ### TODO :
 
 > 6. parse pdf data into formatted .txt file
+>    quit
+>    :fire:
 
 > 7. add data into db (build DB structure)
 
