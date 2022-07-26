@@ -1,5 +1,6 @@
 # memorize
 
+:tada:
 for study
 
 ---
