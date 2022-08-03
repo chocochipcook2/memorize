@@ -32,7 +32,20 @@ fs.readFile('./localDataEdit/first.txt', (err, data) => {
     });
     //console.log(_ques.length);
   });
+  // var data = JSON.stringify({
+  //   email: 'dev@mfinity.io',
+  //   password: 'password',
+  // });
+  // var config = {
+  //   method: 'post',
+  //   url: 'http://localhost:3300/api/v1/users/login',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   data: data,
+  // };
 
+  // const response = await axios(config);
   //console.log(questions.length);//372
   //console.log(bunches.length);
   //console.log(questions[2]);
